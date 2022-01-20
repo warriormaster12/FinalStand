@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/3gg.obj-e8b39f3d7d505ab1ad1e17446f86c947.mesh"
+
+[deps]
+
+files=[ "res://.import/3gg.obj-e8b39f3d7d505ab1ad1e17446f86c947.mesh" ]
+
+source_file="res://GameObjects/Weapon/Assets/3gg.obj"
+dest_files=[ "res://.import/3gg.obj-e8b39f3d7d505ab1ad1e17446f86c947.mesh", "res://.import/3gg.obj-e8b39f3d7d505ab1ad1e17446f86c947.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 0.15, 0.15, 0.15 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

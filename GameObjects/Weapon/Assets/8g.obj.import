@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/8g.obj-35a4273038e4e26885406fa7f1b4c576.mesh"
+
+[deps]
+
+files=[ "res://.import/8g.obj-35a4273038e4e26885406fa7f1b4c576.mesh" ]
+
+source_file="res://GameObjects/Weapon/Assets/8g.obj"
+dest_files=[ "res://.import/8g.obj-35a4273038e4e26885406fa7f1b4c576.mesh", "res://.import/8g.obj-35a4273038e4e26885406fa7f1b4c576.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 0.15, 0.15, 0.15 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

@@ -1,0 +1,17 @@
+# Created by Kenney (www.kenney.nl)
+
+newmtl _defaultMat(Clone)
+Kd 0.937 0.953 1
+
+newmtl dark(Clone)
+Kd 0.185 0.194 0.227
+
+newmtl metalDark(Clone)
+Kd 0.897 0.508 0
+
+newmtl metalLight(Clone)
+Kd 0.42 0.42 0.42
+
+newmtl led_color1(Clone)
+Kd 0.004 1 0.016
+

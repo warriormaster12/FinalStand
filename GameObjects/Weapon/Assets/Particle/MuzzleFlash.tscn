@@ -1,0 +1,55 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://GameObjects/Weapon/Assets/Particle/MuzzleCone.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://GameObjects/Weapon/Assets/Particle/MuzzlePlane.obj" type="ArrayMesh" id=2]
+
+[sub_resource type="Gradient" id=1]
+offsets = PoolRealArray( 0, 0.384146, 0.762195, 0.993902, 1 )
+colors = PoolColorArray( 0, 0, 0, 1, 1, 0.550781, 0, 0.512195, 0, 1, 0.964844, 0.396341, 0, 1, 0.894118, 0, 1, 1, 1, 0 )
+
+[sub_resource type="GradientTexture" id=2]
+gradient = SubResource( 1 )
+
+[sub_resource type="Curve" id=3]
+_data = [ Vector2( 0, 0 ), 0.0, 0.0, 0, 0, Vector2( 1, 1 ), 0.0, 0.0, 0, 0 ]
+
+[sub_resource type="CurveTexture" id=4]
+curve = SubResource( 3 )
+
+[sub_resource type="ParticlesMaterial" id=5]
+gravity = Vector3( 0, 0, 0 )
+scale_curve = SubResource( 4 )
+color_ramp = SubResource( 2 )
+
+[sub_resource type="Gradient" id=6]
+offsets = PoolRealArray( 0, 0.378049, 0.743902, 1 )
+colors = PoolColorArray( 0, 0, 0, 1, 1, 0.662109, 0, 1, 0, 0.947266, 1, 1, 1, 1, 1, 0 )
+
+[sub_resource type="GradientTexture" id=7]
+gradient = SubResource( 6 )
+
+[sub_resource type="Curve" id=8]
+_data = [ Vector2( 0, 0 ), 0.0, 0.0, 0, 0, Vector2( 1, 1 ), 0.0, 0.0, 0, 0 ]
+
+[sub_resource type="CurveTexture" id=9]
+curve = SubResource( 8 )
+
+[sub_resource type="ParticlesMaterial" id=10]
+gravity = Vector3( 0, 0, 0 )
+scale_curve = SubResource( 9 )
+color_ramp = SubResource( 7 )
+
+[node name="Spatial" type="Spatial"]
+
+[node name="MuzzlePlane" type="Particles" parent="."]
+transform = Transform( 0.999669, -0.0215246, -0.0140925, 0.0219534, 0.999278, 0.0310159, 0.0134148, -0.031315, 0.99942, 0, 0, 0 )
+amount = 1
+lifetime = 0.3
+process_material = SubResource( 5 )
+draw_pass_1 = ExtResource( 2 )
+
+[node name="MuzzleCone" type="Particles" parent="."]
+amount = 1
+lifetime = 0.2
+process_material = SubResource( 10 )
+draw_pass_1 = ExtResource( 1 )

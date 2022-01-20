@@ -1,0 +1,14 @@
+# Created by Kenney (www.kenney.nl)
+
+newmtl _defaultMat(Clone)
+Kd 0.186 0.186 0.186
+
+newmtl dark(Clone)
+Kd 0.185 0.194 0.227
+
+newmtl metalDark(Clone)
+Kd 0.262 0.262 0.262
+
+newmtl bandage(Clone)
+Kd 0.56 0.283 0.083
+

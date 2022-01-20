@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/scifigun_5.obj-3879003a3c210385f2d2d4b0ff06a033.mesh"
+
+[deps]
+
+files=[ "res://.import/scifigun_5.obj-3879003a3c210385f2d2d4b0ff06a033.mesh" ]
+
+source_file="res://GameObjects/Weapon/Assets/scifigun_5.obj"
+dest_files=[ "res://.import/scifigun_5.obj-3879003a3c210385f2d2d4b0ff06a033.mesh", "res://.import/scifigun_5.obj-3879003a3c210385f2d2d4b0ff06a033.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 0.11, 0.11, 0.11 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286
